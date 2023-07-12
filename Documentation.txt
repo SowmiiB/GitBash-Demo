@@ -37,3 +37,6 @@ even removed we have to add the removal changes in staging to get it reflect
 
 
 To rename a file - git mv filename newfilename
+
+To ignore files from git tracking add them in .gitignore file. We should create gitignore file in the root directory and then add the files there and add to staging and commit.
+
