@@ -22,3 +22,10 @@ g
 
 
 trying append
+To commit a change: git commit -m message to commit
+You can directly commit the changes without adding the chnage to staging area as well
+commit -a -m "message"  to commit all the uncommitted changes
+It is always best practice to stage your changes before commiting. Only do direct commit when you know what you are doing.
+
+
+git status to check the status of the working repository
