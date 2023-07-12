@@ -1,0 +1,24 @@
+GIT - Distributed version control system
+
+1. Free
+2. Open Source
+3. Super Fast
+4. Scalable
+5. Cheap Branching / Merging
+
+Create a Directory:  mkdir Demo
+goto the directory:  cd Demo
+to create a repository : git init dummy
+
+unix/linux command to add content to any file: creates a file if it does not exists
+
+    echo content > filename
+
+git status : gives the status of the working staging area
+git add file1.txt : adds the file to staging
+
+To append : echo content >> filename
+g
+
+
+trying append
