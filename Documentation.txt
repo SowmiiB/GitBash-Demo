@@ -31,7 +31,8 @@ It is always best practice to stage your changes before commiting. Only do direc
 git status to check the status of the working repository
 git ls-files to list all the files
 
-to remove a file- git rm filename
+to remove a file- rm filename  --> to remove file in staging not in directory
+to remove a file- git rm filename --> to remove file in both staging and directory
 even removed we have to add the removal changes in staging to get it reflect
 
 
