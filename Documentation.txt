@@ -40,3 +40,5 @@ To rename a file - git mv filename newfilename
 
 To ignore files from git tracking add them in .gitignore file. We should create gitignore file in the root directory and then add the files there and add to staging and commit.
 
+To remove a file only from staging area - git rm filename --cached
+To get short status - git status -s
