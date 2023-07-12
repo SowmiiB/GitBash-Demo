@@ -48,3 +48,14 @@ git diff - To compare changes between working directory and staging area
 
 To quit press Q
 To see the commit log -- git log
+To show commit logs with one line description -- git log --oneline 
+To show commit logs with one line description in reverse order -- git log --oneline --reverse 
+To get help use -h
+To show the difference of change in one specific commit -- git show unique.no / head~no.of.steps 
+To see one particular commit version of the file -- git show unique.no / head~no.of.steps:filename
+To show all the directories and files in a commit -- git ls-tree head~1/no.steps
+To find the git version --> git --version
+To restore the changes from staging area --> git restore --staged filename
+To restore changes in local --> git restore filename
+To clean all direcotories and files --> git clean -fd
+To restore a deleted file, we can restore the previous commit using --> git restore --source = head~1 filename
