@@ -42,3 +42,9 @@ To ignore files from git tracking add them in .gitignore file. We should create 
 
 To remove a file only from staging area - git rm filename --cached
 To get short status - git status -s
+git diff --staged - To complare chnages between staging and committed >> Documentation.txt
+
+git diff - To compare changes between working directory and staging area
+
+To quit press Q
+To see the commit log -- git log
