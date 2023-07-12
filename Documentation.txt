@@ -36,3 +36,4 @@ to remove a file- git rm filename --> to remove file in both staging and directo
 even removed we have to add the removal changes in staging to get it reflect
 
 
+To rename a file - git mv filename newfilename
