@@ -57,7 +57,9 @@ To show all the directories and files in a commit -- git ls-tree head~1/no.steps
 To find the git version --> git --version
 To restore the changes from staging area --> git restore --staged filename
 To restore changes in local --> git restore filename
-To clean all direcotories and files --> git clean -fd
+To clean all directories and files --> git clean -fd
 To restore a deleted file, we can restore the previous commit using --> git restore --source = head~1 filename
 To create a branch --> git branch -m branchname
 To push the changes to repository -- > git push -u origin branchname
+
+** To add the repository from git to pycharm, do --> create a project and click VCS -> Get from Version Control --> select the repository you want.
